@@ -1,0 +1,17 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": ["./src"],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "templates": {
+        "meta": {
+            "title": "jindo.router",
+            "description": "Javascript Routers for Jindo library."
+        },
+        "linenums": true
+    }
+}

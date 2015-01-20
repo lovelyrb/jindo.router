@@ -1,0 +1,37 @@
+{
+  "name": "jindo.router",
+  "version": "0.0.1",
+  "description": "Javascript Routers for Jindo library.",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebFrontEnd/jindo.router.git"
+  },
+  "author": "NHN Technology Services Corp.",
+  "licenses": [
+    {
+      "type": "LGPL v2",
+      "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-jsdoc": "^0.5.7",
+    "grunt-karma": "^0.10.1",
+    "jaguarjs-jsdoc": "davidshimjs/jaguarjs-jsdoc",
+    "jshint": "^2.5.11",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-qunit": "^0.1.4",
+    "qunitjs": "^1.16.0",
+    "uglifyjs": "^2.3.6"
+  }
+}

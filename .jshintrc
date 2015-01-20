@@ -1,0 +1,15 @@
+{
+    "curly" : true,
+    "noarg" : true,
+    "nonew" : true,
+    "esnext" : true,
+    "forin" : true,
+    "noempty" : true,
+    "eqeqeq" : true,
+    "undef" : true,
+    "bitwise" : true,
+    "browser" : true,
+    "node" : true,
+    "proto" : true,
+    "predef" : ["jindo"]
+}
