@@ -30,7 +30,8 @@ module.exports = function(grunt) {
         concat : {
             dist : {
                 src : [
-                    'src/**/*.js',
+                    'src/jindo.$Router.js',
+                    'src/jindo.$Router.**.js',
                     'src/<%= pkg.name %>.js'
                 ],
                 dest: 'build/<%= pkg.name %>-<%= pkg.version %>.js'

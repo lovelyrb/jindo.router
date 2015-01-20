@@ -16,7 +16,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'bower_components/jindojs-jindo/dist/mobile/ko/jindo.mobile.ns.min.js',
-      'src/**/*.js',
+      'src/jindo.$Router.js',
+      'src/jindo.$Router.**.js',
+      'src/jindo.router.js',
       'test/**/*.js'
     ],
 
