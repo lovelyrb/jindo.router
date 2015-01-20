@@ -11,5 +11,7 @@
     "browser" : true,
     "node" : true,
     "proto" : true,
-    "predef" : ["jindo"]
+    "predef" : ["jindo"],
+    "indent": 4,
+    "camelcase": true
 }
