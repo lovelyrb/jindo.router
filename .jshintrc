@@ -11,7 +11,10 @@
     "browser" : true,
     "node" : true,
     "proto" : true,
-    "predef" : ["jindo"],
     "indent": 4,
-    "camelcase": true
+    "camelcase": true,
+    "globals" : {
+        "jindo" : true,
+        "QUnit" : false
+    }
 }
